@@ -21,6 +21,16 @@ const getAllPossibleKeyLengthsWithIndicesOfCoincidence = (text) => {
   });
 }
 
+const getTextPartsEncodedWithSameAlphabetByKeyLength = (text, keyLength) => {
+  const letters = [...text];
+  const textParts = [...new Array(keyLength).keys()].map(
+    (shift) => letters.filter((_, index) => !((index + shift) % keyLength)),
+  );
+
+  return textParts;
+}
+
 module.exports = {
   getAllPossibleKeyLengthsWithIndicesOfCoincidence,
+  getTextPartsEncodedWithSameAlphabetByKeyLength,
 };

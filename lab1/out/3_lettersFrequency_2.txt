@@ -1,0 +1,87 @@
+Letter code: 76, Frequency: 29
+
+Letter code: 9, Frequency: 21
+
+Letter code: 30, Frequency: 12
+
+Letter code: 5, Frequency: 9
+
+Letter code: 3, Frequency: 9
+
+Letter code: 0, Frequency: 8
+
+Letter code: 13, Frequency: 8
+
+Letter code: 24, Frequency: 7
+
+Letter code: 31, Frequency: 7
+
+Letter code: 15, Frequency: 5
+
+Letter code: 2, Frequency: 5
+
+Letter code: 4, Frequency: 5
+
+Letter code: 56, Frequency: 4
+
+Letter code: 25, Frequency: 4
+
+Letter code: 63, Frequency: 4
+
+Letter code: 21, Frequency: 3
+
+Letter code: 27, Frequency: 3
+
+Letter code: 41, Frequency: 3
+
+Letter code: 28, Frequency: 2
+
+Letter code: 11, Frequency: 2
+
+Letter code: 14, Frequency: 2
+
+Letter code: 64, Frequency: 2
+
+Letter code: 108, Frequency: 2
+
+Letter code: 47, Frequency: 2
+
+Letter code: 99, Frequency: 2
+
+Letter code: 43, Frequency: 2
+
+Letter code: 60, Frequency: 2
+
+Letter code: 77, Frequency: 1
+
+Letter code: 68, Frequency: 1
+
+Letter code: 8, Frequency: 1
+
+Letter code: 66, Frequency: 1
+
+Letter code: 65533, Frequency: 1
+
+Letter code: 45, Frequency: 1
+
+Letter code: 70, Frequency: 1
+
+Letter code: 118, Frequency: 1
+
+Letter code: 40, Frequency: 1
+
+Letter code: 35, Frequency: 1
+
+Letter code: 32, Frequency: 1
+
+Letter code: 125, Frequency: 1
+
+Letter code: 123, Frequency: 1
+
+Letter code: 97, Frequency: 1
+
+Letter code: 127, Frequency: 1
+
+Letter code: 58, Frequency: 1
+
+Letter code: 62, Frequency: 1
