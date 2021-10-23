@@ -1,0 +1,1083 @@
+Key length: 1, Coincidences: 1
+
+Key length: 2, Coincidences: 2
+
+Key length: 3, Coincidences: 33
+
+Key length: 4, Coincidences: 2
+
+Key length: 5, Coincidences: 2
+
+Key length: 6, Coincidences: 27
+
+Key length: 7, Coincidences: 3
+
+Key length: 8, Coincidences: 0
+
+Key length: 9, Coincidences: 44
+
+Key length: 10, Coincidences: 1
+
+Key length: 11, Coincidences: 0
+
+Key length: 12, Coincidences: 34
+
+Key length: 13, Coincidences: 1
+
+Key length: 14, Coincidences: 2
+
+Key length: 15, Coincidences: 40
+
+Key length: 16, Coincidences: 1
+
+Key length: 17, Coincidences: 2
+
+Key length: 18, Coincidences: 35
+
+Key length: 19, Coincidences: 0
+
+Key length: 20, Coincidences: 4
+
+Key length: 21, Coincidences: 31
+
+Key length: 22, Coincidences: 4
+
+Key length: 23, Coincidences: 2
+
+Key length: 24, Coincidences: 36
+
+Key length: 25, Coincidences: 1
+
+Key length: 26, Coincidences: 5
+
+Key length: 27, Coincidences: 31
+
+Key length: 28, Coincidences: 1
+
+Key length: 29, Coincidences: 5
+
+Key length: 30, Coincidences: 25
+
+Key length: 31, Coincidences: 0
+
+Key length: 32, Coincidences: 4
+
+Key length: 33, Coincidences: 29
+
+Key length: 34, Coincidences: 0
+
+Key length: 35, Coincidences: 4
+
+Key length: 36, Coincidences: 23
+
+Key length: 37, Coincidences: 1
+
+Key length: 38, Coincidences: 3
+
+Key length: 39, Coincidences: 27
+
+Key length: 40, Coincidences: 1
+
+Key length: 41, Coincidences: 4
+
+Key length: 42, Coincidences: 38
+
+Key length: 43, Coincidences: 1
+
+Key length: 44, Coincidences: 2
+
+Key length: 45, Coincidences: 28
+
+Key length: 46, Coincidences: 0
+
+Key length: 47, Coincidences: 3
+
+Key length: 48, Coincidences: 33
+
+Key length: 49, Coincidences: 3
+
+Key length: 50, Coincidences: 1
+
+Key length: 51, Coincidences: 25
+
+Key length: 52, Coincidences: 2
+
+Key length: 53, Coincidences: 1
+
+Key length: 54, Coincidences: 20
+
+Key length: 55, Coincidences: 0
+
+Key length: 56, Coincidences: 5
+
+Key length: 57, Coincidences: 29
+
+Key length: 58, Coincidences: 0
+
+Key length: 59, Coincidences: 2
+
+Key length: 60, Coincidences: 20
+
+Key length: 61, Coincidences: 1
+
+Key length: 62, Coincidences: 2
+
+Key length: 63, Coincidences: 19
+
+Key length: 64, Coincidences: 0
+
+Key length: 65, Coincidences: 8
+
+Key length: 66, Coincidences: 33
+
+Key length: 67, Coincidences: 1
+
+Key length: 68, Coincidences: 2
+
+Key length: 69, Coincidences: 26
+
+Key length: 70, Coincidences: 1
+
+Key length: 71, Coincidences: 4
+
+Key length: 72, Coincidences: 20
+
+Key length: 73, Coincidences: 1
+
+Key length: 74, Coincidences: 7
+
+Key length: 75, Coincidences: 32
+
+Key length: 76, Coincidences: 1
+
+Key length: 77, Coincidences: 5
+
+Key length: 78, Coincidences: 26
+
+Key length: 79, Coincidences: 0
+
+Key length: 80, Coincidences: 4
+
+Key length: 81, Coincidences: 18
+
+Key length: 82, Coincidences: 0
+
+Key length: 83, Coincidences: 3
+
+Key length: 84, Coincidences: 22
+
+Key length: 85, Coincidences: 1
+
+Key length: 86, Coincidences: 0
+
+Key length: 87, Coincidences: 24
+
+Key length: 88, Coincidences: 1
+
+Key length: 89, Coincidences: 3
+
+Key length: 90, Coincidences: 25
+
+Key length: 91, Coincidences: 1
+
+Key length: 92, Coincidences: 1
+
+Key length: 93, Coincidences: 23
+
+Key length: 94, Coincidences: 1
+
+Key length: 95, Coincidences: 1
+
+Key length: 96, Coincidences: 25
+
+Key length: 97, Coincidences: 2
+
+Key length: 98, Coincidences: 3
+
+Key length: 99, Coincidences: 28
+
+Key length: 100, Coincidences: 1
+
+Key length: 101, Coincidences: 2
+
+Key length: 102, Coincidences: 21
+
+Key length: 103, Coincidences: 1
+
+Key length: 104, Coincidences: 4
+
+Key length: 105, Coincidences: 27
+
+Key length: 106, Coincidences: 2
+
+Key length: 107, Coincidences: 3
+
+Key length: 108, Coincidences: 28
+
+Key length: 109, Coincidences: 1
+
+Key length: 110, Coincidences: 4
+
+Key length: 111, Coincidences: 21
+
+Key length: 112, Coincidences: 2
+
+Key length: 113, Coincidences: 3
+
+Key length: 114, Coincidences: 19
+
+Key length: 115, Coincidences: 0
+
+Key length: 116, Coincidences: 2
+
+Key length: 117, Coincidences: 27
+
+Key length: 118, Coincidences: 0
+
+Key length: 119, Coincidences: 3
+
+Key length: 120, Coincidences: 16
+
+Key length: 121, Coincidences: 2
+
+Key length: 122, Coincidences: 4
+
+Key length: 123, Coincidences: 23
+
+Key length: 124, Coincidences: 0
+
+Key length: 125, Coincidences: 3
+
+Key length: 126, Coincidences: 19
+
+Key length: 127, Coincidences: 1
+
+Key length: 128, Coincidences: 5
+
+Key length: 129, Coincidences: 19
+
+Key length: 130, Coincidences: 1
+
+Key length: 131, Coincidences: 2
+
+Key length: 132, Coincidences: 28
+
+Key length: 133, Coincidences: 1
+
+Key length: 134, Coincidences: 6
+
+Key length: 135, Coincidences: 21
+
+Key length: 136, Coincidences: 0
+
+Key length: 137, Coincidences: 3
+
+Key length: 138, Coincidences: 20
+
+Key length: 139, Coincidences: 0
+
+Key length: 140, Coincidences: 5
+
+Key length: 141, Coincidences: 12
+
+Key length: 142, Coincidences: 1
+
+Key length: 143, Coincidences: 5
+
+Key length: 144, Coincidences: 24
+
+Key length: 145, Coincidences: 1
+
+Key length: 146, Coincidences: 4
+
+Key length: 147, Coincidences: 19
+
+Key length: 148, Coincidences: 1
+
+Key length: 149, Coincidences: 4
+
+Key length: 150, Coincidences: 19
+
+Key length: 151, Coincidences: 0
+
+Key length: 152, Coincidences: 2
+
+Key length: 153, Coincidences: 24
+
+Key length: 154, Coincidences: 1
+
+Key length: 155, Coincidences: 5
+
+Key length: 156, Coincidences: 15
+
+Key length: 157, Coincidences: 1
+
+Key length: 158, Coincidences: 2
+
+Key length: 159, Coincidences: 26
+
+Key length: 160, Coincidences: 1
+
+Key length: 161, Coincidences: 1
+
+Key length: 162, Coincidences: 24
+
+Key length: 163, Coincidences: 2
+
+Key length: 164, Coincidences: 5
+
+Key length: 165, Coincidences: 18
+
+Key length: 166, Coincidences: 0
+
+Key length: 167, Coincidences: 2
+
+Key length: 168, Coincidences: 29
+
+Key length: 169, Coincidences: 1
+
+Key length: 170, Coincidences: 1
+
+Key length: 171, Coincidences: 20
+
+Key length: 172, Coincidences: 1
+
+Key length: 173, Coincidences: 1
+
+Key length: 174, Coincidences: 19
+
+Key length: 175, Coincidences: 4
+
+Key length: 176, Coincidences: 3
+
+Key length: 177, Coincidences: 26
+
+Key length: 178, Coincidences: 1
+
+Key length: 179, Coincidences: 2
+
+Key length: 180, Coincidences: 24
+
+Key length: 181, Coincidences: 1
+
+Key length: 182, Coincidences: 5
+
+Key length: 183, Coincidences: 17
+
+Key length: 184, Coincidences: 3
+
+Key length: 185, Coincidences: 7
+
+Key length: 186, Coincidences: 12
+
+Key length: 187, Coincidences: 1
+
+Key length: 188, Coincidences: 2
+
+Key length: 189, Coincidences: 17
+
+Key length: 190, Coincidences: 0
+
+Key length: 191, Coincidences: 2
+
+Key length: 192, Coincidences: 20
+
+Key length: 193, Coincidences: 1
+
+Key length: 194, Coincidences: 3
+
+Key length: 195, Coincidences: 20
+
+Key length: 196, Coincidences: 4
+
+Key length: 197, Coincidences: 6
+
+Key length: 198, Coincidences: 15
+
+Key length: 199, Coincidences: 1
+
+Key length: 200, Coincidences: 4
+
+Key length: 201, Coincidences: 23
+
+Key length: 202, Coincidences: 1
+
+Key length: 203, Coincidences: 6
+
+Key length: 204, Coincidences: 16
+
+Key length: 205, Coincidences: 0
+
+Key length: 206, Coincidences: 2
+
+Key length: 207, Coincidences: 13
+
+Key length: 208, Coincidences: 0
+
+Key length: 209, Coincidences: 4
+
+Key length: 210, Coincidences: 24
+
+Key length: 211, Coincidences: 2
+
+Key length: 212, Coincidences: 2
+
+Key length: 213, Coincidences: 20
+
+Key length: 214, Coincidences: 2
+
+Key length: 215, Coincidences: 7
+
+Key length: 216, Coincidences: 13
+
+Key length: 217, Coincidences: 1
+
+Key length: 218, Coincidences: 4
+
+Key length: 219, Coincidences: 16
+
+Key length: 220, Coincidences: 0
+
+Key length: 221, Coincidences: 2
+
+Key length: 222, Coincidences: 10
+
+Key length: 223, Coincidences: 0
+
+Key length: 224, Coincidences: 8
+
+Key length: 225, Coincidences: 13
+
+Key length: 226, Coincidences: 1
+
+Key length: 227, Coincidences: 6
+
+Key length: 228, Coincidences: 19
+
+Key length: 229, Coincidences: 1
+
+Key length: 230, Coincidences: 6
+
+Key length: 231, Coincidences: 12
+
+Key length: 232, Coincidences: 1
+
+Key length: 233, Coincidences: 4
+
+Key length: 234, Coincidences: 14
+
+Key length: 235, Coincidences: 0
+
+Key length: 236, Coincidences: 1
+
+Key length: 237, Coincidences: 16
+
+Key length: 238, Coincidences: 0
+
+Key length: 239, Coincidences: 8
+
+Key length: 240, Coincidences: 9
+
+Key length: 241, Coincidences: 2
+
+Key length: 242, Coincidences: 3
+
+Key length: 243, Coincidences: 8
+
+Key length: 244, Coincidences: 0
+
+Key length: 245, Coincidences: 5
+
+Key length: 246, Coincidences: 18
+
+Key length: 247, Coincidences: 2
+
+Key length: 248, Coincidences: 2
+
+Key length: 249, Coincidences: 15
+
+Key length: 250, Coincidences: 0
+
+Key length: 251, Coincidences: 3
+
+Key length: 252, Coincidences: 13
+
+Key length: 253, Coincidences: 0
+
+Key length: 254, Coincidences: 6
+
+Key length: 255, Coincidences: 14
+
+Key length: 256, Coincidences: 2
+
+Key length: 257, Coincidences: 5
+
+Key length: 258, Coincidences: 19
+
+Key length: 259, Coincidences: 0
+
+Key length: 260, Coincidences: 2
+
+Key length: 261, Coincidences: 21
+
+Key length: 262, Coincidences: 0
+
+Key length: 263, Coincidences: 3
+
+Key length: 264, Coincidences: 15
+
+Key length: 265, Coincidences: 0
+
+Key length: 266, Coincidences: 4
+
+Key length: 267, Coincidences: 13
+
+Key length: 268, Coincidences: 0
+
+Key length: 269, Coincidences: 3
+
+Key length: 270, Coincidences: 13
+
+Key length: 271, Coincidences: 3
+
+Key length: 272, Coincidences: 2
+
+Key length: 273, Coincidences: 13
+
+Key length: 274, Coincidences: 0
+
+Key length: 275, Coincidences: 4
+
+Key length: 276, Coincidences: 16
+
+Key length: 277, Coincidences: 0
+
+Key length: 278, Coincidences: 5
+
+Key length: 279, Coincidences: 8
+
+Key length: 280, Coincidences: 0
+
+Key length: 281, Coincidences: 3
+
+Key length: 282, Coincidences: 8
+
+Key length: 283, Coincidences: 2
+
+Key length: 284, Coincidences: 4
+
+Key length: 285, Coincidences: 11
+
+Key length: 286, Coincidences: 3
+
+Key length: 287, Coincidences: 6
+
+Key length: 288, Coincidences: 13
+
+Key length: 289, Coincidences: 1
+
+Key length: 290, Coincidences: 5
+
+Key length: 291, Coincidences: 14
+
+Key length: 292, Coincidences: 4
+
+Key length: 293, Coincidences: 4
+
+Key length: 294, Coincidences: 15
+
+Key length: 295, Coincidences: 1
+
+Key length: 296, Coincidences: 2
+
+Key length: 297, Coincidences: 10
+
+Key length: 298, Coincidences: 1
+
+Key length: 299, Coincidences: 10
+
+Key length: 300, Coincidences: 9
+
+Key length: 301, Coincidences: 0
+
+Key length: 302, Coincidences: 1
+
+Key length: 303, Coincidences: 9
+
+Key length: 304, Coincidences: 0
+
+Key length: 305, Coincidences: 4
+
+Key length: 306, Coincidences: 12
+
+Key length: 307, Coincidences: 3
+
+Key length: 308, Coincidences: 3
+
+Key length: 309, Coincidences: 9
+
+Key length: 310, Coincidences: 0
+
+Key length: 311, Coincidences: 0
+
+Key length: 312, Coincidences: 16
+
+Key length: 313, Coincidences: 0
+
+Key length: 314, Coincidences: 12
+
+Key length: 315, Coincidences: 9
+
+Key length: 316, Coincidences: 0
+
+Key length: 317, Coincidences: 3
+
+Key length: 318, Coincidences: 8
+
+Key length: 319, Coincidences: 1
+
+Key length: 320, Coincidences: 1
+
+Key length: 321, Coincidences: 5
+
+Key length: 322, Coincidences: 2
+
+Key length: 323, Coincidences: 1
+
+Key length: 324, Coincidences: 12
+
+Key length: 325, Coincidences: 0
+
+Key length: 326, Coincidences: 6
+
+Key length: 327, Coincidences: 10
+
+Key length: 328, Coincidences: 1
+
+Key length: 329, Coincidences: 5
+
+Key length: 330, Coincidences: 5
+
+Key length: 331, Coincidences: 0
+
+Key length: 332, Coincidences: 5
+
+Key length: 333, Coincidences: 11
+
+Key length: 334, Coincidences: 3
+
+Key length: 335, Coincidences: 0
+
+Key length: 336, Coincidences: 6
+
+Key length: 337, Coincidences: 0
+
+Key length: 338, Coincidences: 2
+
+Key length: 339, Coincidences: 6
+
+Key length: 340, Coincidences: 0
+
+Key length: 341, Coincidences: 5
+
+Key length: 342, Coincidences: 11
+
+Key length: 343, Coincidences: 0
+
+Key length: 344, Coincidences: 2
+
+Key length: 345, Coincidences: 6
+
+Key length: 346, Coincidences: 2
+
+Key length: 347, Coincidences: 2
+
+Key length: 348, Coincidences: 8
+
+Key length: 349, Coincidences: 0
+
+Key length: 350, Coincidences: 3
+
+Key length: 351, Coincidences: 5
+
+Key length: 352, Coincidences: 0
+
+Key length: 353, Coincidences: 2
+
+Key length: 354, Coincidences: 7
+
+Key length: 355, Coincidences: 0
+
+Key length: 356, Coincidences: 5
+
+Key length: 357, Coincidences: 2
+
+Key length: 358, Coincidences: 1
+
+Key length: 359, Coincidences: 2
+
+Key length: 360, Coincidences: 6
+
+Key length: 361, Coincidences: 1
+
+Key length: 362, Coincidences: 4
+
+Key length: 363, Coincidences: 3
+
+Key length: 364, Coincidences: 0
+
+Key length: 365, Coincidences: 6
+
+Key length: 366, Coincidences: 4
+
+Key length: 367, Coincidences: 0
+
+Key length: 368, Coincidences: 3
+
+Key length: 369, Coincidences: 4
+
+Key length: 370, Coincidences: 1
+
+Key length: 371, Coincidences: 6
+
+Key length: 372, Coincidences: 5
+
+Key length: 373, Coincidences: 0
+
+Key length: 374, Coincidences: 4
+
+Key length: 375, Coincidences: 7
+
+Key length: 376, Coincidences: 1
+
+Key length: 377, Coincidences: 1
+
+Key length: 378, Coincidences: 5
+
+Key length: 379, Coincidences: 1
+
+Key length: 380, Coincidences: 5
+
+Key length: 381, Coincidences: 5
+
+Key length: 382, Coincidences: 0
+
+Key length: 383, Coincidences: 2
+
+Key length: 384, Coincidences: 5
+
+Key length: 385, Coincidences: 1
+
+Key length: 386, Coincidences: 1
+
+Key length: 387, Coincidences: 7
+
+Key length: 388, Coincidences: 0
+
+Key length: 389, Coincidences: 5
+
+Key length: 390, Coincidences: 6
+
+Key length: 391, Coincidences: 2
+
+Key length: 392, Coincidences: 2
+
+Key length: 393, Coincidences: 3
+
+Key length: 394, Coincidences: 0
+
+Key length: 395, Coincidences: 3
+
+Key length: 396, Coincidences: 3
+
+Key length: 397, Coincidences: 0
+
+Key length: 398, Coincidences: 4
+
+Key length: 399, Coincidences: 1
+
+Key length: 400, Coincidences: 2
+
+Key length: 401, Coincidences: 3
+
+Key length: 402, Coincidences: 2
+
+Key length: 403, Coincidences: 1
+
+Key length: 404, Coincidences: 5
+
+Key length: 405, Coincidences: 0
+
+Key length: 406, Coincidences: 1
+
+Key length: 407, Coincidences: 7
+
+Key length: 408, Coincidences: 2
+
+Key length: 409, Coincidences: 1
+
+Key length: 410, Coincidences: 7
+
+Key length: 411, Coincidences: 1
+
+Key length: 412, Coincidences: 1
+
+Key length: 413, Coincidences: 6
+
+Key length: 414, Coincidences: 2
+
+Key length: 415, Coincidences: 1
+
+Key length: 416, Coincidences: 6
+
+Key length: 417, Coincidences: 1
+
+Key length: 418, Coincidences: 1
+
+Key length: 419, Coincidences: 6
+
+Key length: 420, Coincidences: 1
+
+Key length: 421, Coincidences: 0
+
+Key length: 422, Coincidences: 6
+
+Key length: 423, Coincidences: 2
+
+Key length: 424, Coincidences: 0
+
+Key length: 425, Coincidences: 5
+
+Key length: 426, Coincidences: 2
+
+Key length: 427, Coincidences: 1
+
+Key length: 428, Coincidences: 2
+
+Key length: 429, Coincidences: 0
+
+Key length: 430, Coincidences: 1
+
+Key length: 431, Coincidences: 6
+
+Key length: 432, Coincidences: 0
+
+Key length: 433, Coincidences: 0
+
+Key length: 434, Coincidences: 2
+
+Key length: 435, Coincidences: 1
+
+Key length: 436, Coincidences: 0
+
+Key length: 437, Coincidences: 5
+
+Key length: 438, Coincidences: 0
+
+Key length: 439, Coincidences: 1
+
+Key length: 440, Coincidences: 2
+
+Key length: 441, Coincidences: 1
+
+Key length: 442, Coincidences: 0
+
+Key length: 443, Coincidences: 3
+
+Key length: 444, Coincidences: 0
+
+Key length: 445, Coincidences: 3
+
+Key length: 446, Coincidences: 5
+
+Key length: 447, Coincidences: 0
+
+Key length: 448, Coincidences: 0
+
+Key length: 449, Coincidences: 2
+
+Key length: 450, Coincidences: 0
+
+Key length: 451, Coincidences: 0
+
+Key length: 452, Coincidences: 6
+
+Key length: 453, Coincidences: 1
+
+Key length: 454, Coincidences: 0
+
+Key length: 455, Coincidences: 1
+
+Key length: 456, Coincidences: 1
+
+Key length: 457, Coincidences: 1
+
+Key length: 458, Coincidences: 2
+
+Key length: 459, Coincidences: 0
+
+Key length: 460, Coincidences: 1
+
+Key length: 461, Coincidences: 5
+
+Key length: 462, Coincidences: 2
+
+Key length: 463, Coincidences: 0
+
+Key length: 464, Coincidences: 1
+
+Key length: 465, Coincidences: 1
+
+Key length: 466, Coincidences: 0
+
+Key length: 467, Coincidences: 4
+
+Key length: 468, Coincidences: 1
+
+Key length: 469, Coincidences: 0
+
+Key length: 470, Coincidences: 4
+
+Key length: 471, Coincidences: 0
+
+Key length: 472, Coincidences: 0
+
+Key length: 473, Coincidences: 1
+
+Key length: 474, Coincidences: 1
+
+Key length: 475, Coincidences: 0
+
+Key length: 476, Coincidences: 0
+
+Key length: 477, Coincidences: 0
+
+Key length: 478, Coincidences: 0
+
+Key length: 479, Coincidences: 0
+
+Key length: 480, Coincidences: 0
+
+Key length: 481, Coincidences: 0
+
+Key length: 482, Coincidences: 0
+
+Key length: 483, Coincidences: 0
+
+Key length: 484, Coincidences: 1
+
+Key length: 485, Coincidences: 2
+
+Key length: 486, Coincidences: 0
+
+Key length: 487, Coincidences: 1
+
+Key length: 488, Coincidences: 2
+
+Key length: 489, Coincidences: 1
+
+Key length: 490, Coincidences: 0
+
+Key length: 491, Coincidences: 4
+
+Key length: 492, Coincidences: 0
+
+Key length: 493, Coincidences: 0
+
+Key length: 494, Coincidences: 1
+
+Key length: 495, Coincidences: 0
+
+Key length: 496, Coincidences: 0
+
+Key length: 497, Coincidences: 0
+
+Key length: 498, Coincidences: 1
+
+Key length: 499, Coincidences: 0
+
+Key length: 500, Coincidences: 2
+
+Key length: 501, Coincidences: 1
+
+Key length: 502, Coincidences: 1
+
+Key length: 503, Coincidences: 2
+
+Key length: 504, Coincidences: 0
+
+Key length: 505, Coincidences: 1
+
+Key length: 506, Coincidences: 1
+
+Key length: 507, Coincidences: 0
+
+Key length: 508, Coincidences: 0
+
+Key length: 509, Coincidences: 0
+
+Key length: 510, Coincidences: 0
+
+Key length: 511, Coincidences: 1
+
+Key length: 512, Coincidences: 2
+
+Key length: 513, Coincidences: 0
+
+Key length: 514, Coincidences: 1
+
+Key length: 515, Coincidences: 0
+
+Key length: 516, Coincidences: 1
+
+Key length: 517, Coincidences: 0
+
+Key length: 518, Coincidences: 1
+
+Key length: 519, Coincidences: 1
+
+Key length: 520, Coincidences: 1
+
+Key length: 521, Coincidences: 0
+
+Key length: 522, Coincidences: 0
+
+Key length: 523, Coincidences: 1
+
+Key length: 524, Coincidences: 0
+
+Key length: 525, Coincidences: 0
+
+Key length: 526, Coincidences: 0
+
+Key length: 527, Coincidences: 2
+
+Key length: 528, Coincidences: 0
+
+Key length: 529, Coincidences: 0
+
+Key length: 530, Coincidences: 0
+
+Key length: 531, Coincidences: 0
+
+Key length: 532, Coincidences: 0
+
+Key length: 533, Coincidences: 0
+
+Key length: 534, Coincidences: 0
+
+Key length: 535, Coincidences: 0
+
+Key length: 536, Coincidences: 0
+
+Key length: 537, Coincidences: 0
+
+Key length: 538, Coincidences: 0
+
+Key length: 539, Coincidences: 0
+
+Key length: 540, Coincidences: 0
+
+Key length: 541, Coincidences: 0
+
+Key length: 542, Coincidences: 0
