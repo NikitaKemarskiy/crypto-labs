@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { getCharsWithFrequencyOrdered } = require('./helper');
+const { getCharsWithFrequencyOrdered } = require('./helper/frequency');
 const {
   getAllPossibleKeyLengthsWithIndicesOfCoincidence,
   getTextPartsEncodedWithSameAlphabetByKeyLength,
