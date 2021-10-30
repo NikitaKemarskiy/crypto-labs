@@ -1,11 +1,11 @@
 const fs = require('fs');
-const { getLettersFrequency } = require('./decipher');
+const { getCharsWithFrequencyOrdered } = require('./helper');
 const {
   getAllPossibleKeyLengthsWithIndicesOfCoincidence,
   getTextPartsEncodedWithSameAlphabetByKeyLength,
 } = require('./decipher/poly/xor');
 
-const LETTERS_BY_FREQUENCY = ['e', 't', 'a', 'o', 'i'];
+const CHARS_BY_FREQUENCY = [' ', 'e', 't', 'a', 'i', 'o', 'n'];
 const CIPHERED_TEXT_BASE_64 = 'G0IFOFVMLRAPI1QJbEQDbFEYOFEPJxAfI10JbEMFIUAAKRAfOVIfOFkYOUQFI15ML1kcJFUeYhA4IxAeKVQZL1VMOFgJbFMDIUAAKUgFOElMI1ZMOFgFPxADIlVMO1VMO1kAIBAZP1VMI14ANRAZPEAJPlMNP1VMIFUYOFUePxxMP19MOFgJbFsJNUMcLVMJbFkfbF8CIElMfgZNbGQDbFcJOBAYJFkfbF8CKRAeJVcEOBANOUQDIVEYJVMNIFwVbEkDORAbJVwAbEAeI1INLlwVbF4JKVRMOF9MOUMJbEMDIVVMP18eOBADKhALKV4JOFkPbFEAK18eJUQEIRBEO1gFL1hMO18eJ1UIbEQEKRAOKUMYbFwNP0RMNVUNPhlAbEMFIUUALUQJKBANIl4JLVwFIldMI0JMK0INKFkJIkRMKFUfL1UCOB5MH1UeJV8ZP1wVYBAbPlkYKRAFOBAeJVcEOBACI0dAbEkDORAbJVwAbF4JKVRMJURMOF9MKFUPJUAEKUJMOFgJbF4JNERMI14JbFEfbEcJIFxCbHIJLUJMJV5MIVkCKBxMOFgJPlWOzKkfbF4DbEMcLVMJPx5MRlgYOEAfdh9DKF8PPx4LI18LIFVCL18BY1QDL0UBKV4YY1RDfXg1e3QAYQUFOGkof3MzK1sZKXIaOnIqPGRYD1UPC2AFHgNcDkMtHlw4PGFDKVQFOA8ZP0BRP1gNPlkCKw==';
 
 /**
@@ -42,45 +42,34 @@ const KEY_LENGTH = 3;
 
 const textParts = getTextPartsEncodedWithSameAlphabetByKeyLength(CIPHERED_TEXT, KEY_LENGTH);
 
-const theMostFrequentLetters = textParts.map((text, index) => {
-  const lettersFrequency = getLettersFrequency(text);
+const theMostFrequentChars = textParts.map((text, index) => {
+  const charsWithFrequencyOrdered = getCharsWithFrequencyOrdered(text);
 
   fs.writeFileSync(
-    `out/3_lettersFrequency_${index + 1}.txt`,
-    lettersFrequency
-      .map(([letter, frequency]) => `Letter code: ${letter.charCodeAt()}, Frequency: ${frequency}`)
+    `out/3_charsFrequency_${index + 1}.txt`,
+    charsWithFrequencyOrdered
+      .map(([char, frequency]) => `Char code: ${char.charCodeAt()}, Frequency: ${frequency}`)
       .join('\n\n')
   );
 
-  const [[letter]] = lettersFrequency;
+  const [[char]] = charsWithFrequencyOrdered;
 
-  return letter;
+  return char;
 });
 
-const KEY = theMostFrequentLetters
-  .map((letter) => String.fromCharCode(letter.charCodeAt() ^ LETTERS_BY_FREQUENCY[0].charCodeAt()))
-  .join('');
-
-console.log(KEY);
-
-const text = [...CIPHERED_TEXT].reduce(
-  (accum, letter, index) => {
-    return accum + String.fromCharCode(letter.charCodeAt() ^ KEY[index % KEY_LENGTH].charCodeAt());
-  },
-  ''
+const keyChars = theMostFrequentChars.map(
+  (char) => String.fromCharCode(char.charCodeAt() ^ CHARS_BY_FREQUENCY[0].charCodeAt())
 );
 
-console.log(text);
-console.log('\n\n\n');
-console.log([...text].filter((_, index) => !(index % 3)).join(''));
-console.log('\n\n\n');
-console.log([...text].filter((_, index) => !((index + 1) % 3)).join(''));
-console.log('\n\n\n');
-console.log([...text].filter((_, index) => !((index + 2) % 3)).join(''));
+const text = [...CIPHERED_TEXT].reduce(
+  (accum, char, index) =>
+    accum + String.fromCharCode(char.charCodeAt() ^ keyChars[index % KEY_LENGTH].charCodeAt()),
+  ''
+);
 
 /**
  * ANSWER
  * Key length: 3
- * Key: ?
- * Text: ?
+ * Key: L0l
+ * Text: Write a code to attack some simple substitution cipher. To reduce the complexity of this one we will use only uppercase letters, so the keyspace is only 26! To get this one right automatically you will probably need to use some sort of genetic algorithm (which worked the best last year), simulated annealing or gradient descent. Seriously, write it right now, you will need it to decipher the next one as well. Bear in mind, there
  */

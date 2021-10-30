@@ -14,3 +14,7 @@
     .entries(charsFrequency)
     .sort(([, frequency1], [, frequency2]) => frequency2 - frequency1);
 }
+
+module.exports = {
+  getCharsWithFrequencyOrdered
+};

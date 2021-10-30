@@ -1,0 +1,95 @@
+Char code: 16, Frequency: 22
+
+Char code: 85, Frequency: 17
+
+Char code: 68, Frequency: 10
+
+Char code: 67, Frequency: 9
+
+Char code: 89, Frequency: 9
+
+Char code: 94, Frequency: 9
+
+Char code: 95, Frequency: 9
+
+Char code: 92, Frequency: 9
+
+Char code: 88, Frequency: 8
+
+Char code: 66, Frequency: 6
+
+Char code: 81, Frequency: 6
+
+Char code: 64, Frequency: 5
+
+Char code: 84, Frequency: 4
+
+Char code: 83, Frequency: 4
+
+Char code: 73, Frequency: 4
+
+Char code: 87, Frequency: 4
+
+Char code: 28, Frequency: 3
+
+Char code: 25, Frequency: 3
+
+Char code: 5, Frequency: 3
+
+Char code: 82, Frequency: 2
+
+Char code: 71, Frequency: 2
+
+Char code: 31, Frequency: 2
+
+Char code: 3, Frequency: 2
+
+Char code: 24, Frequency: 2
+
+Char code: 15, Frequency: 2
+
+Char code: 11, Frequency: 2
+
+Char code: 1, Frequency: 2
+
+Char code: 51, Frequency: 1
+
+Char code: 53, Frequency: 1
+
+Char code: 56, Frequency: 1
+
+Char code: 93, Frequency: 1
+
+Char code: 72, Frequency: 1
+
+Char code: 86, Frequency: 1
+
+Char code: 91, Frequency: 1
+
+Char code: 6, Frequency: 1
+
+Char code: 100, Frequency: 1
+
+Char code: 69, Frequency: 1
+
+Char code: 30, Frequency: 1
+
+Char code: 114, Frequency: 1
+
+Char code: 9, Frequency: 1
+
+Char code: 76, Frequency: 1
+
+Char code: 0, Frequency: 1
+
+Char code: 40, Frequency: 1
+
+Char code: 26, Frequency: 1
+
+Char code: 42, Frequency: 1
+
+Char code: 45, Frequency: 1
+
+Char code: 13, Frequency: 1
+
+Char code: 2, Frequency: 1
