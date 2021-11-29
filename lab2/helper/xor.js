@@ -3,7 +3,7 @@ const xorStrings = (str1, str2) => {
   
   return [...new Array(length).keys()].map(
     (_, index) => String.fromCharCode(str1[index].charCodeAt() ^ str2[index].charCodeAt())
-  );
+  ).join('');
 }
 
 module.exports = {

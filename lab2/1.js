@@ -1,8 +1,12 @@
-const { xorStrings } = require('./helper/xor');
+const { getTextPiecesOptions, FREQUENT_WORD } = require('./decipher/cribDrag');
 
 const CIPHERED_TEXT_LINES = [
   '280dc9e47f3352c307f6d894ee8d534313429a79c1d8a6021f8a8eabca919cfb685a0d468973625e757490daa981ea6b',
+  // 'For who would bear the whips and|13429a79c1d8a6021f8a8eabca919cfb685a0d468973625e757490daa981ea6b',
+  // 'Th'oppressor's wrong, the proud |13429a79c1d8a6021f8a8eabca919cfb685a0d468973625e757490daa981ea6b',
   '3a0a9cab782b4f8603eac28aadde1151005fd46a859df21d12c38eaa858596bf2548000e883d72117466c5c3a580f66b',
+  // '3a0a9cab782b4f8603eac| the proud |005fd46a859df21d12c38eaa858596bf2548000e883d72117466c5c3a580f66b',
+  // '3a0a9cab782b4f8603eac|d love, the|005fd46a859df21d12c38eaa858596bf2548000e883d72117466c5c3a580f66b',
   '3a0adee4783a538403b9c29eaac958550242d3778ed9a61918959bf4ca849afa68450f5edc6e311a7f7ed1d7ec',
   '3a0adee461354e8c1cfcc39bef8d5e40525fdc6bc0dee359578290bcca849afa685a1e5c897362',
   '3a0adab0282b5c9719fcc38caac054541b449a62cf9df21d509690af858286f731091a4890786252',
@@ -21,11 +25,17 @@ const CIPHERED_TEXT_LINES = [
   '390bcfac282f558a03b9df9dedcc43425244d268c0cfa61602918cbd848481bf3c5c1c47db7c660c63',
   '2f0cdfe464344e8650edc59daac3504b1710d56b89dce5011e8c90f6',
 ]
-  .map((textLine) => Buffer.from(textLine, 'hex').toString('utf-8'));
+  .map((textLine) => Buffer.from(textLine, 'hex').toString('ascii'));
+const LINE_1_INDEX = 0;
+const LINE_2_INDEX = 1;
 
-const WORDS_BY_FREQUENCY = ['the', 'be', 'to', 'of', 'and']
-  .map((textLine) => Buffer.from(textLine, 'hex').toString('utf-8'));
+const textPiecesOptions = getTextPiecesOptions(CIPHERED_TEXT_LINES[LINE_1_INDEX], CIPHERED_TEXT_LINES[LINE_2_INDEX]);
 
-for (let i = 0; i < CIPHERED_TEXT_LINES.length - 1; i++) {
-  const linesXored = xorStrings(CIPHERED_TEXT_LINES[i], CIPHERED_TEXT_LINES[i + 1]);
-}
+textPiecesOptions.forEach(
+  (textPieceOption, index) => console.log(`>>> One message contains "${FREQUENT_WORD}" at position ${index}, then other: ${textPieceOption}`)
+);
+
+/**
+ * ANSWER
+ * Composition: "Hamlet" by William Shakespeare
+ */
