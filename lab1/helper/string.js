@@ -4,27 +4,21 @@ const getRandomAlphabetPermutation = () => [...ALPHABET]
   .sort(() => Math.random() - 0.5)
   .join('');
 
-const getLettersObject = (text) => [...text].reduce((accum, letter) => ({
-  ...accum,
-  [letter]: true,
-}), {});
+const getShuffledString = (str) => {
+  const index1 = Math.floor(Math.random() * str.length);
+  const index2 = Math.floor(Math.random() * str.length);
+  const value1 = str[index1];
+  const value2 = str[index2];
+  const chars = [...str];
 
-const swapCharacters = (text, index1, index2) => {
-  const minIndex = Math.min(index1, index2);
-  const maxIndex = Math.max(index1, index2);
+  chars[index1] = value2;
+  chars[index2] = value1;
 
-  return index1 !== index2
-    ? text.substring(0, minIndex) +
-      text[maxIndex] +
-      text.substring(minIndex + 1, maxIndex) +
-      text[minIndex] +
-      text.substring(maxIndex + 1)
-    : text;
+  return chars.join('');
 }
 
 module.exports = {
   ALPHABET,
   getRandomAlphabetPermutation,
-  getLettersObject,
-  swapCharacters,
+  getShuffledString,
 };
