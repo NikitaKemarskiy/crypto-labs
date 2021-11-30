@@ -7,9 +7,9 @@ const {
   swapCharacters,
 } = require('../../helper/string');
 
-const POPULATION_SIZE = 10;
+const POPULATION_SIZE = 20;
 const MUTATIONS_PER_ITERATION = 7;
-const ACCEPTABLE_SCORE = 5500;
+const ACCEPTABLE_SCORE = Infinity;
 
 const getDecipheredText = (text, key) => [...text]
   .map((letter) => ALPHABET[key.indexOf(letter)])
@@ -65,21 +65,12 @@ const getOptimalSolution = (text) => {
   let keys = [...new Array(POPULATION_SIZE).keys()].map(() => getRandomAlphabetPermutation());
   let [solution1, solution2] = getSolutions(text, keys);
 
-  // console.dir({
-  //   solution1,
-  //   solution2
-  // });
-
-  // console.dir(keys);
-
   while (solution1.score < ACCEPTABLE_SCORE) {
     keys = crossover({
       populationSize: POPULATION_SIZE,
       key1: solution1.key,
       key2: solution2.key,
     });
-
-    // console.dir(keys);
 
     let prevScore = solution1.score;
 
@@ -88,8 +79,6 @@ const getOptimalSolution = (text) => {
     if (solution1.score !== prevScore) {
       console.dir(solution1);
     }
-
-    // console.log(solution1.score);
   }
 
   return solution1;
