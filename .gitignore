@@ -123,3 +123,5 @@ dist
 /ui/.env.development.local
 /ui/.env.test.local
 /ui/.env.production.local
+
+package-lock.json
