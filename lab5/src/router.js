@@ -1,5 +1,7 @@
 const path = require('path')
 const express = require('express')
+const userService = require('./service/user');
+
 const router = express.Router();
 
 const PUBLIC_FILES_DIRECTORY = path.join(__dirname, '..', 'public');
