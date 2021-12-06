@@ -1,15 +1,15 @@
 const express = require('express');
-const userHandlers = require('./handlers/userHandlers');
-const validateSchema = require('./validations/validateSchema.js');
-const userSchema = require('./validations/schemas/userSchema.js');
-const checkForCommonPasswords = require('./validations/checkers/commonPasswordsChecker.js');
+const userHandler = require('./handler/user');
+const userSchema = require('./validation/schema/user');
+const validateSchema = require('./validation/validateSchema');
+const { checkForCommonPasswords } = require('./validation/checker/password');
 
 const router = express.Router();
 
-router.get('/sign-in', userHandlers.getLoginPage);
-router.post('/sign-in', userHandlers.loginUser);
+router.get('/sign-in', userHandler.getLoginPage);
+router.post('/sign-in', userHandler.loginUser);
 
-router.get('/sign-up', userHandlers.getRegistrationPage);
-router.post('/sign-up', validateSchema(userSchema), checkForCommonPasswords(), userHandlers.registerUser);
+router.get('/sign-up', userHandler.getRegistrationPage);
+router.post('/sign-up', validateSchema(userSchema), checkForCommonPasswords, userHandler.registerUser);
 
 module.exports = router;
