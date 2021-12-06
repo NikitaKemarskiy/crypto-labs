@@ -18,7 +18,7 @@ module.exports = Joi.object().keys({
             'string.pattern.base': `"password" must contain at least 1 special, alphabetic lowercase, uppercase and numeric character at least`,
             'any.required': `"password" is a required field`
         }),
-    address: Joi.string().required()
+    address: Joi.string()
         .messages({
             'string.base': `"address" should be a type of 'string'`,
             'any.required': `"address" is a required field`

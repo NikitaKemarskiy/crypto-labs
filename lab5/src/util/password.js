@@ -1,3 +1,4 @@
+const path = require('path');
 const fs = require('fs/promises');
 
 const passwordUtil = {
@@ -5,7 +6,10 @@ const passwordUtil = {
   getCommonPasswords: async function () {
     if (!this.commonPasswords) {
       this.commonPasswords =
-        (await fs.readFile('../../data/mostCommonPasswords.txt', { encoding: 'utf-8' })).split('\n');
+        (await fs.readFile(
+          path.join(__dirname, '..', '..', 'data', 'mostCommonPasswords.txt'),
+          { encoding: 'utf-8' }
+        )).split('\n');
     }
 
     return this.commonPasswords;
