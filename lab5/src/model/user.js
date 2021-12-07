@@ -1,15 +1,16 @@
 const { Model } = require('sequelize');
+const config = require('config');
 
 module.exports = (sequelize, DataTypes) => {
-	class User extends Model {}
+  class User extends Model {}
 
-	User.init({
-		login: {
-			type: DataTypes.STRING,
-			allowNull: false,
-			unique: true,
-		},
-		passwordHash: {
+  User.init({
+    login: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+    },
+    passwordHash: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -33,12 +34,12 @@ module.exports = (sequelize, DataTypes) => {
     passwordVersion: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue: process.env.DATABASE_PASSWORD_VERSION,
+      defaultValue: config.db.passwordVersion,
     }
-	}, {
-		sequelize,
-		modelName: 'user',
-	});
+  }, {
+    sequelize,
+    modelName: 'user',
+  });
 
-	return User;
+  return User;
 };

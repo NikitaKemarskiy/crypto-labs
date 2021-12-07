@@ -1,6 +1,9 @@
 # Custom
 out.txt
 
+# Config
+**/config/development.js
+
 # OS specific
 .DS_Store
 

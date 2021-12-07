@@ -1,16 +1,17 @@
 const fs = require('fs');
 const path = require('path');
+const config = require('config');
 const Sequelize = require('sequelize');
 
 const basename = path.basename(__filename);
 
 const sequelize = new Sequelize(
-  process.env.DATABASE_NAME,
-  process.env.DATABASE_USERNAME,
-  process.env.DATABASE_PASSWORD,
+  config.db.name,
+  config.db.username,
+  config.db.password,
   {
-    host: process.env.DATABASE_HOST,
-    dialect: process.env.DATABASE_DIALECT,
+    host: config.db.host,
+    dialect: config.db.dialect,
   }
 );
 

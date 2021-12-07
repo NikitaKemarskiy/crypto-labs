@@ -14,12 +14,17 @@ async function createUser({
   phoneNumber,
   address
 }) {
+  // const encryptedUserFields = encryptObjectFieldsWithAead({
+  //   login,
+  //   phoneNumber,
+  //   address
+  // });
   const { passwordHash, nonce } = await getPasswordHashAndNonce(password);
 
   return model.user.create({
-    login,
     passwordHash,
     nonce,
+    login,
     phoneNumber,
     address,
   });
