@@ -1,7 +1,6 @@
 const { SHA3 } = require('sha3');
 const argon2 = require('argon2');
-const tweetnacl = require('tweetnacl');
-const tweetnaclUtil = require('tweetnacl-util');
+const cryptoService = require('./crypto');
 const model = require('../model');
 
 const TIME_COST = 2;
@@ -34,16 +33,14 @@ async function getPasswordHashAndNonce(password) {
     memoryCost: MEMORY_COST,
     parallelism: PARALELLISM
   });
-  const nonce = tweetnacl.randomBytes(tweetnacl.secretbox.nonceLength);
-  const xsalsa20Poly1305Box = tweetnacl.secretbox(
-    tweetnaclUtil.decodeUTF8(argon2Hash),
+  const {
     nonce,
-    tweetnaclUtil.decodeUTF8(process.env.PASSWORD_KEY),
-  );
+    valueEncrypted: passwordHash
+  } = cryptoService.encryptWithAead(argon2Hash);
 
   return {
-    nonce: tweetnaclUtil.encodeBase64(nonce),
-    passwordHash: tweetnaclUtil.encodeBase64(xsalsa20Poly1305Box),
+    nonce,
+    passwordHash,
   };
 }
 
@@ -57,21 +54,7 @@ async function authenticate(login, password) {
   }
 
   const sha3Hash = new SHA3(HASH_SIZE).update(password).digest('utf-8');
-
-  const xsalsa20Poly1305Box = tweetnaclUtil.decodeBase64(user.passwordHash);
-  const nonce = tweetnaclUtil.decodeBase64(user.nonce);
-  const argon2Hash = tweetnaclUtil.encodeUTF8(
-    tweetnacl.secretbox.open(
-      xsalsa20Poly1305Box,
-      nonce,
-      tweetnaclUtil.decodeUTF8(process.env.PASSWORD_KEY)
-    )
-  );
-
-  console.dir({
-    argon2Hash,
-    sha3Hash,
-  });
+  const argon2Hash = cryptoService.decryptWithAead(user.passwordHash, user.nonce);
 
   return argon2.verify(argon2Hash, sha3Hash);
 }
