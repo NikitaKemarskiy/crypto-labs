@@ -8,24 +8,32 @@ function encryptObjectFieldsWithAead(obj) {
 }
 
 function encryptWithAead(value) {
-  const nonce = tweetnacl.randomBytes(tweetnacl.secretbox.nonceLength);
+  const nonceAsUint8Array = tweetnacl.randomBytes(tweetnacl.secretbox.nonceLength);
   const xsalsa20Poly1305Box = tweetnacl.secretbox(
     tweetnaclUtil.decodeUTF8(value),
     nonce,
     tweetnaclUtil.decodeUTF8(config.db.key),
   );
 
-  return {
-    nonce: tweetnaclUtil.encodeBase64(nonce),
-    valueEncrypted: tweetnaclUtil.encodeBase64(xsalsa20Poly1305Box),
-  };
+  const valueWithNonce = new Uint8Array(nonceAsUint8Array.length + xsalsa20Poly1305Box.length);
+  valueWithNonce.set(nonceAsUint8Array);
+  valueWithNonce.set(xsalsa20Poly1305Box, nonceAsUint8Array.length);
+
+  return tweetnaclUtil.encodeBase64(valueWithNonce);
 }
 
-function decryptWithAead(value, nonce) {
+function decryptWithAead(valueWithNonce) {
+  const valueWithNonceAsUint8Array = decodeBase64(valueWithNonce);
+  const nonceAsUint8Array = valueWithNonceAsUint8Array.slice(0, tweetnacl.secretbox.nonceLength);
+  const valueAsUint8Array = valueWithNonceAsUint8Array.slice(
+    tweetnacl.secretbox.nonceLength,
+    valueWithNonce.length,
+  );
+
   return tweetnaclUtil.encodeUTF8(
     tweetnacl.secretbox.open(
-      tweetnaclUtil.decodeBase64(value),
-      tweetnaclUtil.decodeBase64(nonce),
+      valueAsUint8Array,
+      nonceAsUint8Array,
       tweetnaclUtil.decodeUTF8(config.db.key)
     )
   );

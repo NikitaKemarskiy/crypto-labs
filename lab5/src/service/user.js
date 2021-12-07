@@ -14,23 +14,20 @@ async function createUser({
   phoneNumber,
   address
 }) {
-  // const encryptedUserFields = encryptObjectFieldsWithAead({
-  //   login,
-  //   phoneNumber,
-  //   address
-  // });
-  const { passwordHash, nonce } = await getPasswordHashAndNonce(password);
+  const encryptedUserFields = encryptObjectFieldsWithAead({
+    login,
+    phoneNumber,
+    address
+  });
+  const passwordHash = await getPasswordHash(password);
 
   return model.user.create({
     passwordHash,
-    nonce,
-    login,
-    phoneNumber,
-    address,
+    ...encryptedUserFields,
   });
 }
 
-async function getPasswordHashAndNonce(password) {
+async function getPasswordHash(password) {
   const sha3Hash = new SHA3(HASH_SIZE).update(password).digest('utf-8');
   const argon2Hash = await argon2.hash(sha3Hash, {
     type: argon2.argon2id,
@@ -38,15 +35,7 @@ async function getPasswordHashAndNonce(password) {
     memoryCost: MEMORY_COST,
     parallelism: PARALELLISM
   });
-  const {
-    nonce,
-    valueEncrypted: passwordHash
-  } = cryptoService.encryptWithAead(argon2Hash);
-
-  return {
-    nonce,
-    passwordHash,
-  };
+  return cryptoService.encryptWithAead(argon2Hash);
 }
 
 async function authenticate(login, password) {
@@ -59,7 +48,7 @@ async function authenticate(login, password) {
   }
 
   const sha3Hash = new SHA3(HASH_SIZE).update(password).digest('utf-8');
-  const argon2Hash = cryptoService.decryptWithAead(user.passwordHash, user.nonce);
+  const argon2Hash = cryptoService.decryptWithAead(user.passwordHash);
 
   return argon2.verify(argon2Hash, sha3Hash);
 }

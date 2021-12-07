@@ -14,10 +14,6 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    nonce: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     phoneNumber: {
       type: DataTypes.STRING,
       allowNull: false,
