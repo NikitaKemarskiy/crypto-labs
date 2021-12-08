@@ -73,8 +73,6 @@ async function authenticate(login, password) {
 
   const sha3Hash = new SHA3(HASH_SIZE).update(password).digest('utf-8');
 
-  console.dir(user);
-
   return argon2.verify(user.passwordHash, sha3Hash);
 }
 
