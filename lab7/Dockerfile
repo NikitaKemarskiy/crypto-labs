@@ -10,19 +10,28 @@ RUN echo 'deb http://nginx.org/packages/mainline/debian/ stretch nginx' >> /etc/
   && apt install nginx
 
 # Install certificates
-COPY cert/openssl-25519.cnf .
-RUN openssl genpkey -algorithm ED25519 > /etc/ssl/certs/localhost.key \
-  && openssl req \
-    -new \
-    -out localhost.csr \
-    -key /etc/ssl/certs/localhost.key \
-    -config openssl-25519.cnf \
-  && openssl x509 \
-    -req \
-    -days 365 \
-    -in localhost.csr \
-    -signkey /etc/ssl/certs/localhost.key \
-    -out /etc/ssl/certs/localhost.crt
+COPY cert/openssl.cnf .
+RUN openssl req \
+  -x509 \
+  -nodes \
+  -days 365 \
+  -newkey rsa:2048 \
+  -keyout /etc/ssl/private/localhost.key \
+  -out /etc/ssl/certs/localhost.crt \
+  -config openssl.cnf \
+  -extensions 'v3_req'
+# RUN openssl genpkey -algorithm ED25519 > /etc/ssl/private/localhost.key \
+#   && openssl req \
+#     -new \
+#     -out localhost.csr \
+#     -key /etc/ssl/private/localhost.key \
+#     -config openssl.cnf \
+#   && openssl x509 \
+#     -req \
+#     -days 365 \
+#     -in localhost.csr \
+#     -signkey /etc/ssl/private/localhost.key \
+#     -out /etc/ssl/certs/localhost.crt
 
 # Copy website files
 COPY public/* /var/www/localhost/
